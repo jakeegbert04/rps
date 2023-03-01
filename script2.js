@@ -1,5 +1,3 @@
-
-
 function userGame() {
   
   const pickNum = prompt(
@@ -22,14 +20,6 @@ function aiGame() {
 
 let win = 0;
 let loss = 0;
-
-const wins = {
-  1: 3,
-  2: 1,
-  3: 2,
-};
-
-
 
 
 function playGame(user, ai) {
@@ -102,5 +92,3 @@ function menu() {
     }
   }
 }
-
-
